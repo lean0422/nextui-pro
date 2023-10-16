@@ -1,4 +1,5 @@
 {
+  "name": "nextui-pro",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -14,6 +15,5 @@
     "tsup": "^7.2.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "my-turborepo"
+  "packageManager": "pnpm@8.6.10"
 }
