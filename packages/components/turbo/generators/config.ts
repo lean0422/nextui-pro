@@ -22,7 +22,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       },
       {
         type: "append",
-        path: "src/index.tsx",
+        path: "src/index.ts",
         pattern: /(?<insertion>\/\/ component exports)/g,
         template: "export * from './{{name}}';",
       },

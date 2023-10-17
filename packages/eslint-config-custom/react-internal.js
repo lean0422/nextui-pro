@@ -37,5 +37,7 @@ module.exports = {
     // add specific rules configurations here
     'import/no-extraneous-dependencies': 'off',
     '@typescript-eslint/no-unnecessary-condition': 'off',
+    '@typescript-eslint/array-type': 'off',
+    'import/no-default-export': 'off',
   },
 };
